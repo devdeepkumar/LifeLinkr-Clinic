@@ -365,7 +365,7 @@ const observer = new IntersectionObserver(
 
       if (entry.isIntersecting && scrollingDown) {
         stickyDiv.style.position = "absolute";
-        stickyDiv.style.top = "-700px";
+        stickyDiv.style.top = "-628px";
       } else if (!entry.isIntersecting && !scrollingDown) {
         stickyDiv.style.position = "fixed";
         stickyDiv.style.top = "95px";
@@ -376,7 +376,7 @@ const observer = new IntersectionObserver(
   },
   {
     root: null,
-    threshold: 0.70,
+    threshold: 0.92,
   }
 );
 
